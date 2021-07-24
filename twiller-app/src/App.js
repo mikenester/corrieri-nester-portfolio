@@ -1,8 +1,9 @@
 import "./App.css";
-import Login from "./Components/Login";
 import VertSidebar from "./Components/VertSidebar";
 import { Switch, Route } from "react-router-dom";
+import Login from "./Components/Login";
 import Home from "./Components/Home";
+import UserHome from "./Components/UserHome";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/login">
           <Login />
+        </Route>
+        <Route path="/userhome">
+          <UserHome />
         </Route>
         <Route path="*">
           <h1>404 BABY</h1>

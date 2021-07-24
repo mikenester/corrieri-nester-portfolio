@@ -20,7 +20,6 @@ function Home() {
           rel="noopener noreferrer"
         >
           Created by Michael Corrieri and Brian Nester <br></br>
-          Project lead by Michael Nester
         </a>
       </header>
     </div>

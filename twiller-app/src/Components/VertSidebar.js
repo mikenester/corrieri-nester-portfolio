@@ -32,7 +32,7 @@ function VertSidebar() {
               <Icon name="home" />
               Home
             </Menu.Item>
-            <Menu.Item as="a">
+            <Menu.Item as={Link} to="/userhome">
               <Icon name="user outline" />
               User
             </Menu.Item>
